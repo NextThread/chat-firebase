@@ -254,8 +254,8 @@ class ChatPanel extends React.Component {
           {/* Header */}
           <div className="item">
             <Profile
-              username={user.fullname}
-              image={user.image}
+              username={user && user.fullname}
+              image={user && user.image}
               isOnline={user.isLogin}
             />
           </div>

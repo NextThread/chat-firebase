@@ -5,6 +5,7 @@ import "firebase/auth";
 import config from "./config";
 
 // Init App
+
 firebase.initializeApp(config);
 firebase.firestore();
 

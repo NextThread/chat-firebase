@@ -80,8 +80,8 @@ class Home extends Component {
                   isOnline={true}
                   shortName={true}
                   style={{ padding: "10px" }}
-                  username={user.fullname}
-                  image={user.image}
+                  username={user && user.fullname}
+                  image={user && user.image}
                 />
               </div>
               <div className={`item ${isMenu ? "d-none" : ""}`}>
